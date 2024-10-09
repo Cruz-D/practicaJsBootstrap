@@ -97,6 +97,7 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Styles\calculator.css" />
     <Content Include="Styles\sass\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>

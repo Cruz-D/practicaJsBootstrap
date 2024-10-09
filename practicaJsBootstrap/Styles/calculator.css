@@ -1,0 +1,42 @@
+﻿.calculator {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 10px solid #808080;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+}
+
+/* Pantalla principal grande */
+.calc-screen {
+    height: 80px;
+    font-size: 30px;
+    text-align: right;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+/* Pantalla secundaria interna */
+.calc-screen-second {
+    height: 60px;
+    width: 100%; /* Se ajusta al ancho disponible */
+    font-size: 40px;
+    text-align: right;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+}
+
+.calc-button {
+    height: 70px;
+    font-size: 24px;
+    border: 3px solid #808080;
+}
+
+.buttonContainer {
+    border: 2px solid #000;
+    padding: 1px;
+}
