@@ -1,0 +1,27 @@
+﻿@import 'mixin';
+// Variables
+$primary-color: #3498db; // Color principal
+$secondary-color: #2ecc71; // Color secundario
+$font-family: 'Arial, sans-serif'; // Fuente principal
+
+body {
+    font-family: $font-family;
+    background-color: #f5f5f5;
+    padding: 20px;
+
+    h1 {
+        color: $primary-color;
+    }
+
+    p {
+        color: $secondary-color;
+    }
+}
+
+.button-primary {
+    @include button-style($primary-color);
+}
+
+.button-secondary {
+    @include button-style($secondary-color);
+}
